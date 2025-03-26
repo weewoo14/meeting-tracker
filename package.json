@@ -1,0 +1,26 @@
+{
+  "name": "message-tracker",
+  "version": "1.0.0",
+  "description": "A discord bot that keeps track of memorable messages in separate discord channels in discord servers.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weewoo14/message-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weewoo14/message-tracker/issues"
+  },
+  "homepage": "https://github.com/weewoo14/message-tracker#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  }
+}
