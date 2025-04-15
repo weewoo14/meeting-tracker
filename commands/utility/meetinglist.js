@@ -3,7 +3,7 @@ const fs = require("fs").promises;
 
 let scheduleContent;
 
-async function loadSchedule() {
+async function loadSchedule() { 
     try{
         scheduleContent = await fs.readFile("schedule.txt", "utf8");
     } catch (err){
